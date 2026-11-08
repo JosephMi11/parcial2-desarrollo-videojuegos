@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnología | Desarrollo de Videojuegos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo"> <span>9T</span>G4ME</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="historia.html">Historia</a></li>
+      <li><a href="tecnologia.html" class="active">Tecnología</a></li>
+      <li><a href="industria.html">Industria</a></li>
+      <li><a href="futuro.html">El Futuro</a></li>
+      <li><a href="creador.html">El Creador</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </nav>
+</header>
+
+<main class="contenedor">
+  <h1 class="titulo-seccion">Motores Gráficos y Herramientas</h1>
+  <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--color-texto-suave);">
+    Un motor gráfico es el software base que permite a los desarrolladores crear un videojuego sin tener que programar todo desde cero. Estas son las herramientas más importantes de la industria actual.
+  </p>
+
+  <div class="grid-tarjetas">
+    <!-- Tarjeta Unreal -->
+    <article class="tarjeta tarjeta-motor">
+      <img src="assets/img/unreal-logo.png" alt="Logo de Unreal Engine" class="logo-motor">
+      <h3>Unreal Engine</h3>
+      <p>Creado por Epic Games. Es conocido por sus gráficos de alta fidelidad y es el estándar para juegos AAA (grandes presupuestos). Usa su propio lenguaje visual llamado Blueprints o C++.</p>
+    </article>
+
+    <!-- Tarjeta Unity -->
+    <article class="tarjeta tarjeta-motor">
+      <img src="assets/img/unity-logo.png" alt="Logo de Unity" class="logo-motor">
+      <h3>Unity</h3>
+      <p>El motor más popular para juegos independientes (Indies) y móviles. Es muy versátil, fácil de aprender y utiliza C# como lenguaje principal. Se estima que más del 50% de los juegos móviles usan Unity.</p>
+    </article>
+
+    <!-- Tarjeta Godot -->
+    <article class="tarjeta tarjeta-motor">
+      <img src="assets/img/godot-logo.png" alt="Logo de Godot" class="logo-motor">
+      <h3>Godot</h3>
+      <p>La alternativa de código abierto (Open Source) y gratuita. Está ganando mucha tracción por su ligereza, su sistema de nodos y su lenguaje de programación propio llamado GDScript (similar a Python).</p>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-contenido">
+    <div>
+      <h4>9T G4ME</h4>
+      <p>Proyecto del Parcial 2 para la asignatura Desarrollo de Software V.</p>
+      <p>Universidad Tecnológica de Panamá.</p>
+    </div>
+    <div>
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="tecnologia.html">Tecnología</a></li>
+        <li><a href="industria.html">Industria</a></li>
+        <li><a href="futuro.html">El Futuro</a></li>
+        <li><a href="creador.html">El Creador</a></li>
+      </ul>
+    </div>
+    <div class="footer-creador">
+      <img src="assets/img/creador.jpg" alt="Foto del creador" class="foto-creador">
+      <div>
+        <h4>Creador</h4>
+        <p><strong>Joseph Miranda</strong></p>
+        <p style="font-size: 0.85rem;">"Apasionado por la fusión entre la programación y creación de videojuegos."</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 - Universidad Tecnológica de Panamá. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<button id="btn-top" title="Volver arriba">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

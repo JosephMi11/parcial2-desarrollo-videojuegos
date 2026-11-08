@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Futuro | Desarrollo de Videojuegos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo"> <span>9T</span>G4ME</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="historia.html">Historia</a></li>
+      <li><a href="tecnologia.html">Tecnología</a></li>
+      <li><a href="industria.html">Industria</a></li>
+      <li><a href="futuro.html" class="active">El Futuro</a></li>
+      <li><a href="creador.html">El Creador</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </nav>
+</header>
+
+<main class="contenedor">
+  <h1 class="titulo-seccion">El Futuro del Gaming</h1>
+  <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--color-texto-suave);">
+    La tecnología no se detiene. Estas son las tendencias que están redefiniendo cómo jugamos, creamos y experimentamos los videojuegos.
+  </p>
+
+  <div class="grid-futuro">
+    <div class="tarjeta-futuro">
+      <div class="futuro-icono">🥽</div>
+      <h3>Realidad Virtual y Aumentada</h3>
+      <p>Con dispositivos como Meta Quest o Apple Vision Pro, la inmersión total es el siguiente paso. Los juegos dejarán de estar en una pantalla para estar a tu alrededor.</p>
+      <span class="etiqueta">VR / AR</span>
+    </div>
+
+    <div class="tarjeta-futuro">
+      <div class="futuro-icono">🤖</div>
+      <h3>Inteligencia Artificial</h3>
+      <p>No solo para NPCs más inteligentes, sino para generar arte, misiones y código en tiempo real, reduciendo los tiempos de desarrollo drásticamente.</p>
+      <span class="etiqueta">IA Generativa</span>
+    </div>
+
+    <div class="tarjeta-futuro">
+      <div class="futuro-icono">☁️</div>
+      <h3>Cloud Gaming</h3>
+      <p>Jugar títulos AAA en cualquier dispositivo sin necesidad de una consola o PC potente. El procesamiento ocurre en servidores remotos y se transmite por internet.</p>
+      <span class="etiqueta">Streaming</span>
+    </div>
+
+    <div class="tarjeta-futuro">
+      <div class="futuro-icono">🌐</div>
+      <h3>El Metaverso y Web3</h3>
+      <p>Mundos persistentes donde los jugadores tienen propiedad real sobre sus ítems (NFTs) y pueden ganar dinero jugando (Play-to-Earn). Un tema muy debatido.</p>
+      <span class="etiqueta">Blockchain</span>
+    </div>
+  </div>
+
+  <section style="text-align: center; margin-top: 4rem;">
+    <h2>¿Quieres saber qué nos depara el 2030?</h2>
+    <br>
+    <button id="btn-prediccion" class="btn">Revelar Predicción</button>
+    <p id="texto-prediccion" style="display: none; margin-top: 2rem; font-size: 1.2rem; color: var(--color-primario); padding: 1.5rem; border: 1px dashed var(--color-primario); border-radius: 10px;">
+      En 2030, los motores gráficos serán tan avanzados que los videojuegos serán indistinguibles de la realidad. Además, veremos los primeros juegos "neurales" que se adaptan a las ondas cerebrales del jugador para ajustar la dificultad o la narrativa en tiempo real.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-contenido">
+    <div>
+      <h4>9T G4ME</h4>
+      <p>Proyecto del Parcial 2 para la asignatura Desarrollo de Software V.</p>
+      <p>Universidad Tecnológica de Panamá.</p>
+    </div>
+    <div>
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="tecnologia.html">Tecnología</a></li>
+        <li><a href="industria.html">Industria</a></li>
+        <li><a href="futuro.html">El Futuro</a></li>
+        <li><a href="creador.html">El Creador</a></li>
+      </ul>
+    </div>
+    <div class="footer-creador">
+      <img src="assets/img/creador.jpg" alt="Foto del creador" class="foto-creador">
+      <div>
+        <h4>Creador</h4>
+        <p><strong>Joseph Miranda</strong></p>
+        <p style="font-size: 0.85rem;">"Apasionado por la fusión entre la programación y creación de videojuegos."</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 - Universidad Tecnológica de Panamá.</p>
+  </div>
+</footer>
+
+<button id="btn-top" title="Volver arriba">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
